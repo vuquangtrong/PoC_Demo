@@ -31,4 +31,4 @@ Serving online activation, there is a server that responses to activating reques
 
 [LicenseActivationOnline](./LicenseActivationOnline.mp4)
 
-![screenshot](screenshot.png)
+![screenshot](screenshot.jpg)
