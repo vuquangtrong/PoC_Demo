@@ -28,11 +28,7 @@ Serving online activation, there is a server that responses to activating reques
 
 # Video demo
 [LicenseActivationOffline](./LicenseActivationOffline.mp4)
+
 [LicenseActivationOnline](./LicenseActivationOnline.mp4)
 
-![licenseGenerator](licenseGenerator.png)
-![OnlineActivation](OnlineActivation.png)
-![OfflineActivation](OfflineActivation.png)
-![LicenseInfoOnClient](LicenseInfoOnClient.png)
-![licenseGeneratorConsole](licenseGeneratorConsole.png)
-![Popups](Popups.png)
+![screenshot](screenshot.png)
