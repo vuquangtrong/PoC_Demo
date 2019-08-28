@@ -5,8 +5,7 @@ This project aims to read data from target machine via COM RS232 port:
 * auto recover and be ready to receive next data
 * export data to logs
 
-# Video demo
-[DxH600_demo](./DxH600_demo.mp4)
+# Video demo : [DxH600_demo.mp4](./DxH600_demo.mp4)
 
 - if you have DxH600 device, please choose correct COM port
 - Run `DxH600.exe`, set the COM port and settings, press CONNECT

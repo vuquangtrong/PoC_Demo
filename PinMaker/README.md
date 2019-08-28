@@ -5,8 +5,7 @@ This project aims to provide a fast way to combine text and image to make postca
 * Easy to format object with fonts, color, opacity
 * Export image in various formats
 
-# Video demo
-[PinMaker_demo](./PinMaker_demo.mp4)
+# Video demo: [PinMaker_demo.mp4](./PinMaker_demo.mp4)
 
 The demo include:
 * image/text imports or add manually

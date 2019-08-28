@@ -26,9 +26,6 @@ Using RSA algorithm, the license is encrypted and signed to make sure that the l
 # Automatic licensing server
 Serving online activation, there is a server that responses to activating requests from applications on the air. The license is automatically generated after a purchase is made and then the license will be sent to customer directly.
 
-# Video demo
-[LicenseActivationOffline](./LicenseActivationOffline.mp4)
-
-[LicenseActivationOnline](./LicenseActivationOnline.mp4)
+# Video demo: [LicenseActivationOffline.mp4 ](./LicenseActivationOffline.mp4) [LicenseActivationOnline.mp4](./LicenseActivationOnline.mp4)
 
 ![screenshot](screenshot.jpg)

@@ -7,8 +7,7 @@ This project aims to provide a manager for GSM Gateway:
 * Automactically check and report SIM status
 * Support import/ export from Excel CVS, TXT
 
-# Video demo
-[SimManager](./SimManager.mp4)
+# Video demo: [SimManager.mp4](./SimManager.mp4)
 
 ![SimManager1](./SimManager1.jpg)
 
