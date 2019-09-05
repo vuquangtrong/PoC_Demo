@@ -5,8 +5,8 @@ This project aims to provide a method to filter and forward important SMS
 * Setup formward mode: SMS forward, Web Push
 * Automatically run at startup, silent run
 * Saved settings
-* and mores
+* Remote update settings via SMS (you dont need to open app, send an SMS with keyword to update settings remotely)
 
-# Video demo: [SmsForwader.mp4](./SmsForwader.mp4)
+# Video demo: [SmsForwarder.mp4](./SmsForwarder.mp4)
 
-![SmsForwader](./SmsForwader.png)
+![SmsForwarder](./SmsForwarder.png)
