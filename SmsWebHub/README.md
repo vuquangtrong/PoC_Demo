@@ -38,8 +38,8 @@ To end call, simply use end=y
 <vps_ip_address>:8000/call?end=y&token=Z
 ```
 
-![SmsWebHub_mobile_1](./SmsWebHub_mobile_1.jpg)
+![SmsWebHub_mobile_1](./SmsWebHub_mobile_1.png)
 
-![SmsWebHub_mobile_2](./SmsWebHub_mobile_2.jpg)
+![SmsWebHub_mobile_2](./SmsWebHub_mobile_2.png)
 
 ![SmsWebHub_vps_server](./SmsWebHub_vps_server.jpg)
