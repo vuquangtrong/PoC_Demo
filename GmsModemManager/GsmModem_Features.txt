@@ -1,0 +1,80 @@
+2019/11/16 18:00
+
+1. Tab Kiểm tra tài khoản:
+
+- Tự dò cổng COM và phát hiện SIM
+    + hiển thị SIM seri, nhà mạng, số điện thoại
+
+- Nút gửi USSD1, USSD2; checkbox tùy chọn tự động gửi khi có SIM 
+
+- Nút gọi PSC+KT: gọi điện đến số PSC và kết thúc sau X giây; checkbox tùy chọn tự động gọi khi có SIM 
+
+- Nút gọi 900 để kích hoạt, có delay trước khi gửi các phím số; checkbox  tùy chọn tự động kích hoạt khi có SIM mới
+
+- Nút gọi 900+KT:
+    + gọi 900, nhập mã số theo thứ tự X-Y-Z, có delay trước khi nhập phím
+    + hiện settings cho người dùng nhập thứ tự số cần bấm
+
+- Nút gọi điện đến 1 số điện thoại và tự kết thúc sau X giây, input nhập X giây
+
+- Nút gửi tin nhắn đến 1 số điện thoại; checkbox tùy chọn tự động gửi tin khi có SIM
+    + input nhập số đt, input nhập tin nhắn
+
+- Danh sách thông tin gồm:
+    + STT, Cổng, Trạng thái, Số điện thoại, Nội dung chi tiết tình trạng của lệnh cuối
+
+- các nút chức năng ở trên, nếu được bấm thì sẽ thực hiện cho các SIM đang được chọn trong danh sách.
+
+- lệnh được chạy trên SIM, nếu có lỗi thì chạy lại, số lần chạy lại có thể tùy chọn trong cài đặt
+
+- trên danh sách các cổng. mỗi dòng có một nút bấm để chạy lại lệnh cuối cùng đã chạy trên cổng đó
+    + trỏ chuột vào nút đó để biết lệnh cuối cùng là gì
+
+2. Tab Nhận SMS
+
+- Đọc tin nhắn từ SIM
+    + chọn cổng để đọc hoặc đọc tất cả
+    + tùy chọn tự đọc tin nhắn khi có SIM
+
+- Xóa tin nhắn đã chọn; tùy chọn xóa tất cả trên 1 cổng
+
+- Tự nhận SMS
+    + khi có SMS đến, tự đọc SMS và hiển thị
+
+- Lọc thông tin từ tin nhắn
+   + nhập định dạng cần lấy, sau đó hiển thị phần thông tin cần lấy ở danh sách
+
+3. Tab Kết nối GPRS
+
+- Nút request URL khi nhấn
+- input Web URL để request
+- Tùy chọn SIM tự động request HTTP để phát sinh cước data khi có SIM
+
+4. Xuất kết quả ra Excel
+
+- xuất danh sách từ tab kiểm tra tài khoản
+    + chỉ xuất thông tin đang hiển thị
+
+- xuất danh sách từ tab nhậm sms
+    + chỉ xuất những SMS đang hiển thị
+    seri, stt, sđt, nội dung kết quả với cái lọc
+
+5. Chức năng phụ
+
+- Hỗ trợ 3 nhà mạng Viettel, Mobi, Vina
+   + cấu hình 900: thứ tự nút nhập vào, thời gian trễ giữa mỗi lần nhập nút 
+   + cấu hình mã USSD để kiểm tra tài khoản
+
+- Phát hiện cổng vậy lý trên modem theo thứ tự
+   + hiện cửa sổ thông báo:
+		- thông báo PHẢI BẬT CÁC CỔNG THEO ĐÚNG THỨ TỰ
+		- bật lần lượt từng cổng, chờ theo chỉ dẫn của phần mềm
+		- làm lại nếu người dùng bật k theo thứ tự (ng dùng tự phát hiện là đã sai, phần mềm không phát hiện được)
+
+	cách khác cần ng dùng xác nhận nhưng độ tin cậy cao hơn
+		lúc bật cổng trên modem, phần mềm phát hiện ra có cổng COM đc bật, nó sẽ hiện cửa sổ nhỏ:
+		"phát hiện cổng COM, số thứ tự N" chả hạn
+		rồi có lựa chọn: 
+		- xác nhận để phần mềm tự gán
+		- sửa: khi thấy sai, vì rõ là mình gán trên cổng M mà nó nhận là N, thì mình sửa luôn thành M.
+		- nếu chọn xác nhận, lần sau nó sẽ hiên thứ tự là N+1, còn nếu chọn sửa, lần sau nó hiện lại N.
